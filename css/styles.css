@@ -1,13 +1,10 @@
-:root {
-    --brand-color: #3f51b5;
-    --brand-font: Roboto, sans-serif;
-}
-
 body {
     font-size: 14px;
     color: #3f51b5;
     background-color: #ffffff;
     font-family: var(--brand-font);
+    --brand-color: #3f51b5;
+    --brand-font: Roboto, sans-serif;
 }
 
 .click a {
