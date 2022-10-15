@@ -48,7 +48,7 @@ a.menu-item:hover {
 }
 
 .filter-single {
-    background-color: #f5f4fa;
+    background-color: var(--second-background);
     border: none;
     color: black;
     width: 93px;
