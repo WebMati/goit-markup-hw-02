@@ -1,0 +1,79 @@
+:root {
+    --brand-color: #212121;
+    --item-color: #2196f3;
+    --link-color: #757575;
+    --second-background: #f5f4fa;
+    --third-background: #2f303a;
+}
+
+body {
+    font-size: 14px;
+    color: #3f51b5;
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
+
+.logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--item-color);
+    }
+
+.logo-color {
+    color: var(--brand-color);
+}
+
+a.menu-item, .logo {
+    text-decoration: var(--text-decoration);
+}
+
+a.menu-item:focus,
+a.menu-item:hover {
+    color: black;
+}
+
+.portfolio-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 188%;
+}
+
+.portfolio-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 200%;
+}
+
+.filter-single {
+    background-color: #f5f4fa;
+    border: none;
+    color: black;
+    width: 93px;
+    height: 38px;
+    text-align: center;
+    text-decoration: var(--text-decoration);
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.lorem {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.filter-single:focus,
+.filter-single:hover {
+    color: #ffffff;
+    background-color: #2196f3;
+    border-radius: 6px;
+}
